@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(83, 172, 231);
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  color: white;
+  margin-top: 5px;
+}
+fieldset {
+  border: none;
+}
+label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: medium;
+}
+input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+textarea {
+  width: 300px;
+  height: 150px;
+}
+select {
+  width: 300px;
+  height: 20px;
+  color: white;
+  margin-bottom: 5px;
+  font-size: medium;
+  align-content: space-between;
+}
+::placeholder {
+  color: white;
+  font-size: medium;
+}
+input,
+textarea,
+select {
+  background-color: transparent;
+  border: 1px solid white;
+}
